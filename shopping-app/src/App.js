@@ -1,22 +1,28 @@
 import logo from "./logo.svg";
 import "./App.css";
+import Navbar from "./components/Navbar";
+import ProductList from "./components/ProductList";
+import Footer from "./components/Footer";
 
 function App() {
+  const product = [
+    {
+      price: 99999,
+      name: "IPhone 12S Max",
+      quantity: 0,
+    },
+    {
+      price: 9999,
+      name: "IPhone 10S Max",
+      quantity: 0,
+    },
+  ];
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Wow! React is Amazing!</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Hello Everyone!
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <ProductList />
+      <Footer />
+    </>
   );
 }
 
