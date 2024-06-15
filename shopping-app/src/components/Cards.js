@@ -1,71 +1,74 @@
 import React from "react";
+import "./Cards.css"; // Ensure this path matches where your CSS file is located
 
 class Cards extends React.Component {
-  state = {};
   render() {
     return (
-      <div className="row row-cols-1 row-cols-md-2 g-4">
-        <div className="col">
-          <div className="card">
-            <img
-              src="./public/Dress.jpg"
-              className="Dress-image"
-              alt="A Stylish Dress"
-            />
-            <div className="card-body">
-              <h5 className="card-title">Party Dress</h5>
-              <p className="card-text">
-                There are lots of verity of stylish and party dresses. Dresses
-                are available for different color and fabric in low price.
-              </p>
+      <div className="container">
+        <div className="row row-cols-1 row-cols-md-2 g-4">
+          <div className="col">
+            <div className="card">
+              <img
+                src="/Dress.jpg"
+                className="card-img-top"
+                alt="A Stylish Dress"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Stylish Dress</h5>
+                <p className="card-text">
+                  There are lots of varieties of stylish and party dresses.
+                  Dresses are available in different colors and fabrics at low
+                  prices.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="col">
-          <div className="card">
-            <img
-              src="./public/Purse.jpg"
-              className="Purse-image"
-              alt="A Stylish Purse"
-            />
-            <div className="card-body">
-              <h5 className="card-title">Beautiful Purse</h5>
-              <p className="card-text">
-                There are variety of party purses are available. Large range of
-                color and fancy. Beautiful and strong Material.
-              </p>
+          <div className="col">
+            <div className="card">
+              <img
+                src="/Purse.jpg"
+                className="card-img-top"
+                alt="A Stylish Purse"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Beautiful Purse</h5>
+                <p className="card-text">
+                  A variety of party purses are available. Large range of colors
+                  and fancy styles. Beautiful and strong material.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="col">
-          <div className="card">
-            <img
-              src="./public/Shoe.jpg"
-              className="Shoe-image"
-              alt="Stylish Shoe"
-            />
-            <div className="card-body">
-              <h5 className="card-title">Lady Shoe</h5>
-              <p className="card-text">
-                There are variety of party waer shoe are available. Large range
-                of color and different material. Guarantee for comfort.
-              </p>
+          <div className="col">
+            <div className="card">
+              <img
+                src="/Shoe.jpg"
+                className="card-img-top"
+                alt="Stylish Shoe"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Lady Shoe</h5>
+                <p className="card-text">
+                  A variety of party wear shoes are available. Large range of
+                  colors and different materials. Guaranteed comfort.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
-        <div className="col">
-          <div className="card">
-            <img
-              src="./public/Make-up.jpg"
-              className="Makeup-image"
-              alt="Awesome Makeup-kit"
-            />
-            <div className="card-body">
-              <h5 className="card-title">Makeup-Kit</h5>
-              <p className="card-text">
-                There are variety of cosmetics such as foundation, lipstick,
-                eyeliner, mascara and brushes are available of different brands.
-              </p>
+          <div className="col">
+            <div className="card">
+              <img
+                src="/Make-up.jpg"
+                className="card-img-top"
+                alt="Awesome Makeup-kit"
+              />
+              <div className="card-body">
+                <h5 className="card-title">Makeup Kit</h5>
+                <p className="card-text">
+                  A variety of cosmetics such as foundation, lipstick, eyeliner,
+                  mascara, and brushes are available from different brands.
+                </p>
+              </div>
             </div>
           </div>
         </div>

@@ -1,0 +1,77 @@
+/* Navbar.css */
+
+/* Basic navbar styling */
+.navbar {
+    margin-bottom: 20px;
+  }
+  
+  /* Navbar brand styling */
+  .navbar-brand {
+    font-size: 1.5rem;
+    color: #fff;
+  }
+  
+  .navbar-brand:hover {
+    color: #ddd;
+  }
+  
+  /* Navbar link styling */
+  .nav-link {
+    color: #fff;
+  }
+  
+  .nav-link:hover {
+    color: #ddd;
+  }
+  
+  /* Active link styling */
+  .nav-link.active {
+    color: #bbb;
+  }
+  
+  /* Disabled link styling */
+  .nav-link.disabled {
+    color: #9c9999;
+  }
+  
+  /* Dropdown menu styling */
+  .dropdown-menu {
+    background-color: #333;
+    border: none;
+  }
+  
+  .dropdown-item {
+    color: #fff;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #444;
+  }
+  
+  /* Divider styling within dropdown */
+  .dropdown-divider {
+    border-top: 1px solid #555;
+  }
+  
+  /* Search form styling */
+  .form-control {
+    background-color: #e3e6f2;
+    color: #999595;
+    border: 1px solid #b4b0b0;
+  }
+  
+  .form-control::placeholder {
+    color: #6d6b6b;
+  }
+  
+  .btn-outline-success {
+    color: #fff;
+    border-color: #28a745;
+  }
+  
+  .btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+    border-color: #28a745;
+  }
+  
