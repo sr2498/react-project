@@ -13,11 +13,10 @@ class Cards extends React.Component {
               alt="A Stylish Dress"
             />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Party Dress</h5>
               <p className="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                There are lots of verity of stylish and party dresses. Dresses
+                are available for different color and fabric in low price.
               </p>
             </div>
           </div>
@@ -30,11 +29,10 @@ class Cards extends React.Component {
               alt="A Stylish Purse"
             />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Beautiful Purse</h5>
               <p className="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                There are variety of party purses are available. Large range of
+                color and fancy. Beautiful and strong Material.
               </p>
             </div>
           </div>
@@ -47,10 +45,10 @@ class Cards extends React.Component {
               alt="Stylish Shoe"
             />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Lady Shoe</h5>
               <p className="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content.
+                There are variety of party waer shoe are available. Large range
+                of color and different material. Guarantee for comfort.
               </p>
             </div>
           </div>
@@ -60,14 +58,13 @@ class Cards extends React.Component {
             <img
               src="./public/Make-up.jpg"
               className="Makeup-image"
-              alt="Makeup-kit"
+              alt="Awesome Makeup-kit"
             />
             <div className="card-body">
-              <h5 className="card-title">Card title</h5>
+              <h5 className="card-title">Makeup-Kit</h5>
               <p className="card-text">
-                This is a longer card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                There are variety of cosmetics such as foundation, lipstick,
+                eyeliner, mascara and brushes are available of different brands.
               </p>
             </div>
           </div>
