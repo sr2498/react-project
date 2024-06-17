@@ -1,5 +1,7 @@
 import React from "react";
 import "./Navbar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faShoppingCart } from "@fortawesome/free-solid-svg-icons";
 
 class Navbar extends React.Component {
   state = {};
@@ -70,7 +72,7 @@ class Navbar extends React.Component {
                 </a>
               </li>
             </ul>
-            <form className="d-flex" role="search">
+            <form className="d-flex me-3" role="search">
               <input
                 className="form-control me-2"
                 type="search"
@@ -81,6 +83,11 @@ class Navbar extends React.Component {
                 Search
               </button>
             </form>
+            <div>
+              <a className="nav-link" href="#">
+                <FontAwesomeIcon icon={faShoppingCart} />
+              </a>
+            </div>
           </div>
         </div>
       </nav>
