@@ -12,10 +12,10 @@ Welcome to the Shopping App! This is a simple web application where users can br
 
 ## Technologies Used
 
-- React.js: Front-end library for building user interfaces
-- Bootstrap: CSS framework for responsive design
-- HTML5 & CSS3: Structure and styling of the application
-- JavaScript: Programming language for interactivity
+- React.js: Front-end library for building user interfaces.
+- Bootstrap: CSS framework for responsive design.
+- HTML5 & CSS3: Structure and styling of the application.
+- JavaScript: Programming language for interactivity.
 
 ## Setup Instructions
 
