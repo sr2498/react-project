@@ -17,21 +17,13 @@ Welcome to the **Shopping App**! This web application provides a seamless shoppi
 - **HTML5 & CSS3**: Used for structuring and styling the application.
 - **JavaScript**: Adds interactivity and functionality to the app.
 
-## How to Use
+## Setup Instructions
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/your-username/shopping-app.git
    cd shopping-app
 
-
-## Setup Instructions
-
-**Clone the repository**
-
-   git clone git@github.com:sr2498/react-project.git
-   cd shopping-app
-
-**Screenshot**
+## **Screenshot**
 
 ![Screen Shot 2024-06-14 at 11 48 30 PM](https://github.com/sr2498/react-project/assets/134464080/337b0795-d6cf-4ab8-920f-df1d4ca0cd47)
